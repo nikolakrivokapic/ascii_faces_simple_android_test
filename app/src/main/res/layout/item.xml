@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffd9d9d9"
+    android:gravity="center_horizontal|fill_vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/item_text1"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:textSize="16dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:singleLine="false"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:paddingLeft="0dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/item_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:text="sdsf"
+        android:layout_marginTop="45dp"
+        android:textSize="8dp"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:id="@+id/item_text3"
+        android:layout_width="fill_parent"
+        android:layout_height="27dp"
+        android:text="BUY NOW!"
+        android:layout_below="@+id/item_text2"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="4dp"
+        android:textSize="8dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/selector">
+    </TextView>
+
+</LinearLayout>
