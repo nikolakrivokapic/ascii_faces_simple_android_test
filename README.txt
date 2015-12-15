@@ -19,7 +19,7 @@ onlyInStock (bool) - When flag is set, only return products that are currently i
 Response Type: NDJSON The app should keep loading products from the API until it has enough to fill the screen, and then wait until the user has swiped to the bottom to load more. 
 The app should cache API requests for 1 hour. 
 
----------------------------------------- ANSWER: ---------------------------------------- 
+ANSWER: ---------------------------------------- 
 
 First of all here is the link where you can download zipped project code, compiled apk, few screenshots, and notes copied from this email: https://github.com/nikolakrivokapic/ascii_faces_simple_android_test After few days of work I have done the task and following the link below is the full project from Android Studio and compiled .apk file ready to run on any Android device or emulator such is Virtual Box ( https://www.virtualbox.org/ ) . 
 
